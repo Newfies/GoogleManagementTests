@@ -1,4 +1,4 @@
-class replace1 extends HTMLElement {
+class abbl extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <title>Apple</title>
@@ -6,4 +6,4 @@ class replace1 extends HTMLElement {
     }
 }
 
-customElements.define('apple', replace1);
+customElements.define('apple', abbl);
