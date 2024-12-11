@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
 
-    document.title("TESTING ANALYTICS");
+    document.title = "TESTING ANALYTICS";
 
     // Wait 3 seconds, then run redirector()
     setTimeout(() => {
